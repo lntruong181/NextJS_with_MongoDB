@@ -5,8 +5,8 @@ module.exports = {
         "ACCESS_TOKEN_SECRET": "YOUR_ACCESS_TOKEN_SECRET",
         "REFRESH_TOKEN_SECRET": "YOUR_REFRESH_TOKEN_SECRET",
         "PAYPAL_CLIENT_ID": "YOUR_PAYPAL_CLIENT_ID",
-        "CLOUD_UPDATE_PRESET": "YOUR_CLOUD_UPDATE_PRESET",
-        "CLOUD_NAME": "YOUR_CLOUD_NAME",
-        "CLOUD_API": "YOUR_CLOUD_API"
+        "CLOUD_UPDATE_PRESET": "nodejs_store",
+        "CLOUD_NAME": "https-next-js-with-mongo-db-vercel-app",
+        "CLOUD_API": "https://api.cloudinary.com/v1_1/https-next-js-with-mongo-db-vercel-app/image/upload"
     }
 }
