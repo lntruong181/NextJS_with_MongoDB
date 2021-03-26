@@ -44,6 +44,8 @@ function NavBar() {
 
     const loggedRouter = () => {
         return(
+            
+
             <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <img src={auth.user.avatar} alt={auth.user.avatar} 
@@ -57,6 +59,19 @@ function NavBar() {
                     <Link href="/profile">
                         <a className="dropdown-item">Profile</a>
                     </Link>
+                    <Link href="/profile">
+                        <a className="dropdown-item">Profile</a>
+                    </Link>
+                    <Link href="/profile">
+                        <a className="dropdown-item">Profile</a>
+                    </Link>
+                    <Link href="/profile">
+                        <a className="dropdown-item">Profile</a>
+                    </Link>
+                    <Link href="/profile">
+                        <a className="dropdown-item">Profile</a>
+                    </Link>
+                    
                     {
                         auth.user.role === 'admin' && adminRouter()
                     }
