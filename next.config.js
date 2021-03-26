@@ -1,6 +1,6 @@
 module.exports = {
     env: {
-        "BASE_URL": "http://localhost:3000",
+        "BASE_URL": "https://next-js-with-mongo-db.vercel.app/",
         "MONGODB_URL": "mongodb+srv://dbUser:dbUser@database-shop.gqq2f.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
         "ACCESS_TOKEN_SECRET": "YOUR_ACCESS_TOKEN_SECRET",
         "REFRESH_TOKEN_SECRET": "YOUR_REFRESH_TOKEN_SECRET",
