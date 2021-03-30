@@ -1,5 +1,5 @@
-const valid = (name, email, password, cf_password) => {
-    if(!name || !email || !password)
+const valid = (ten,ngaySinh,sdt,gioiTinh,anhDaiDien, email, password, cf_password) => {
+    if(!ten || !email || !password || ngaySinh || sdt || gioiTinh || anhDaiDien  || cf_password )
     return 'Please add all fields.'
 
     if(!validateEmail(email))
